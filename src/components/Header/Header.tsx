@@ -10,7 +10,7 @@ export function Header() {
 	const [openMobileMenu, setOpenMobileMenu] = useState(false);
 
 	return (
-		<div className="container mx-auto my-5">
+		<div className="container mx-auto my-5 px-10">
 			<div className="flex items-center justify-between px-5 md:px-0">
 				<Link href="/">
 					<h1 className="font-medium">WaAlex Real Estate</h1>
